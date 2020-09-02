@@ -1,0 +1,10 @@
+{
+  "parent": "block/orientable",
+  "textures":
+  {
+    "bottom": "toolmod:blocks/aurora_block_bottom",
+    "top": "toolmod:blocks/aurora_block_top",
+    "side": "toolmod:blocks/aurora_block",
+    "front": "toolmod:blocks/aurora_block"
+  }
+}
