@@ -30,7 +30,7 @@ public class RegistryHandler {
 
     //Tools
     public static final RegistryObject<AxeItem> Copper_Axe = ITEMS.register("copper_axe",
-            () -> new AxeItem(ModItemTier.Copper_Ingot, 3, -3.2F, new Item.Properties().group(ItemGroup.TOOLS)));
+            () -> new AxeItem(ModItemTier.Copper_Ingot, 2, -3.2F, new Item.Properties().group(ItemGroup.TOOLS)));
     public static final RegistryObject<SwordItem> Copper_Sword = ITEMS.register("copper_sword",
             () -> new SwordItem(ModItemTier.Copper_Ingot, 2, -2.4F, new Item.Properties().group(ItemGroup.COMBAT)));
     public static final RegistryObject<PickaxeItem> Copper_Pickaxe = ITEMS.register("copper_pickaxe",
@@ -40,7 +40,15 @@ public class RegistryHandler {
     public static final RegistryObject<HoeItem> Copper_hoe = ITEMS.register("copper_hoe",
             () -> new HoeItem(ModItemTier.Copper_Ingot, -1, -3F, new Item.Properties().group(ItemGroup.TOOLS)));
     public static final RegistryObject<SwordItem> Aurora_Sword = ITEMS.register("aurora_sword",
-            () -> new SwordItem(ModItemTier.Aurora_Fragment, 6, -2.4F, new Item.Properties().group(ItemGroup.COMBAT)));
+            () -> new SwordItem(ModItemTier.Aurora_Fragment, 8, -2.4F, new Item.Properties().group(ItemGroup.COMBAT)));
+    public static final RegistryObject<AxeItem> Aurora_Axe = ITEMS.register("aurora_axe",
+            () -> new AxeItem(ModItemTier.Aurora_Fragment, 3, -3.2F, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<PickaxeItem> Aurora_Pickaxe = ITEMS.register("aurora_pickaxe",
+            () -> new PickaxeItem(ModItemTier.Aurora_Fragment, 0, -2.8F, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<ShovelItem> Aurora_Shovel = ITEMS.register("aurora_shovel",
+            () -> new ShovelItem(ModItemTier.Aurora_Fragment, 1, -3F, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<HoeItem> Aurora_hoe = ITEMS.register("aurora_hoe",
+            () -> new HoeItem(ModItemTier.Aurora_Fragment, -1, -3F, new Item.Properties().group(ItemGroup.TOOLS)));
     public static final RegistryObject<AxeItem> Emerald_Axe = ITEMS.register("emerald_axe",
             () -> new AxeItem(ModItemTier.Emerald, 3, -3.2F, new Item.Properties().group(ItemGroup.TOOLS)));
     public static final RegistryObject<SwordItem> Emerald_Sword = ITEMS.register("emerald_sword",
