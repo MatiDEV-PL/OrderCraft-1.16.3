@@ -6,13 +6,13 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 modId="toolmod" #mandatory
 version="1.12.2-1.0" #mandatory
 displayName="OrderCraft" #mandatory
-updateJSONURL="http://myurl.me/" #optional
-displayURL="http://example.com/" #optional
+updateJSONURL="https://github.com/MatiDEV-PL/OrderCraft-1.16.2" #optional
+displayURL="https://github.com/MatiDEV-PL/OrderCraft-1.16.2" #optional
 logoFile="examplemod.png" #optional
-credits="Thanks for this example mod goes to Java" #optional
-authors="Love, Cheese and small house plants" #optional
+credits="Thanks Orion27ZNG for textures" #optional
+authors="MatiDEV-PL, Orion27ZNG" #optional
 description='''
-Nothing for now
+    Mod that adds some new items and blocks to the game.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional
