@@ -110,7 +110,6 @@ public class RegistryHandler {
     public static final RegistryObject<Block> Copper_Block = BLOCKS.register("copper_block", CopperBlock::new);
     public static final RegistryObject<Block> Copper_Ore = BLOCKS.register("copper_ore", CopperOre::new);
     public static final RegistryObject<Block> Paper_Block = BLOCKS.register("paper_block", PaperBlock::new);
-    public static final RegistryObject<Block> Aurora_Block = BLOCKS.register("aurora_block", AuroraBlock::new);
     public static final RegistryObject<Block> Tin_Block = BLOCKS.register("tin_block", TinBlock::new);
     public static final RegistryObject<Block> Tin_Ore = BLOCKS.register("tin_ore", TinOre::new);
 
@@ -118,7 +117,6 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Copper_Block_Item = ITEMS.register("copper_block", () -> new BlockItemBase(Copper_Block.get()));
     public static final RegistryObject<Item> Copper_Ore_Item = ITEMS.register("copper_ore", () -> new BlockItemBase(Copper_Ore.get()));
     public static final RegistryObject<Item> Paper_Block_Item = ITEMS.register("paper_block", () -> new BlockItemBase(Paper_Block.get()));
-    public static final RegistryObject<Item> Aurora_Block_Item = ITEMS.register("aurora_block", () -> new BlockItemBase(Aurora_Block.get()));
     public static final RegistryObject<Item> Tin_Block_Item = ITEMS.register("tin_block", () -> new BlockItemBase(Tin_Block.get()));
     public static final RegistryObject<Item> Tin_Ore_Item = ITEMS.register("tin_ore", () -> new BlockItemBase(Tin_Ore.get()));
 }

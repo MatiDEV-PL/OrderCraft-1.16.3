@@ -1,10 +1,12 @@
 {
-  "parent": "block/orientable",
-  "textures":
-  {
-    "bottom": "toolmod:blocks/aurora_block_bottom",
-    "top": "toolmod:blocks/aurora_block_top",
-    "side": "toolmod:blocks/aurora_block",
-    "front": "toolmod:blocks/aurora_block"
+  "parent": "block/cube",
+  "textures": {
+    "down": "toolmod:blocks/aurora_block_bottom",
+    "up": "toolmod:blocks/aurora_block_top",
+    "north": "toolmod:blocks/aurora_block",
+    "east": "toolmod:blocks/aurora_block",
+    "south": "toolmod:blocks/aurora_block",
+    "west": "toolmod:blocks/aurora_block",
+    "particle": "toolmod:blocks/aurora_block_bottom"
   }
 }
