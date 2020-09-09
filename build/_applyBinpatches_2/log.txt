@@ -1,15 +1,15 @@
-Args: "--clean", "C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.2-20200812.004259\joined-1.16.2-20200812.004259-srg.jar", "--output", "C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.42\forge-1.16.2-33.0.42-binpatched.jar", "--apply", "C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.42\forge-1.16.2-33.0.42-binpatches.lzma"
+Args: "--clean", "C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.2-20200812.004259\joined-1.16.2-20200812.004259-srg.jar", "--output", "C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.57\forge-1.16.2-33.0.57-binpatched.jar", "--apply", "C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.57\forge-1.16.2-33.0.57-binpatches.lzma"
 Classpath: C:\Users\mateu\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.0.12\binarypatcher-1.0.12-fatjar.jar
 WorkDir: C:\Users\mateu\Desktop\ToolMod\OrderCraft-1.16.2\build\_applyBinpatches_2
 Main: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.2-20200812.004259\joined-1.16.2-20200812.004259-srg.jar
-  Output:    C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.42\forge-1.16.2-33.0.42-binpatched.jar
+  Output:    C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.57\forge-1.16.2-33.0.57-binpatched.jar
   KeepData:  false
   Unpatched: false
-  Patches:   C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.42\forge-1.16.2-33.0.42-binpatches.lzma
-Loading patches file: C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.42\forge-1.16.2-33.0.42-binpatches.lzma
+  Patches:   C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.57\forge-1.16.2-33.0.57-binpatches.lzma
+Loading patches file: C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.2-33.0.57\forge-1.16.2-33.0.57-binpatches.lzma
   Reading patch com.mojang.blaze3d.platform.GlStateManager$1.binpatch
     Checksum: 27fccb26 Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$AlphaState.binpatch
@@ -1976,6 +1976,10 @@ Loading patches file: C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 1417b4a7 Exists: true
   Reading patch net.minecraft.tags.ItemTags.binpatch
     Checksum: e22babd Exists: true
+  Reading patch net.minecraft.tags.NetworkTagManager.binpatch
+    Checksum: f84da44c Exists: true
+  Reading patch net.minecraft.tags.TagCollectionManager.binpatch
+    Checksum: c4850ea5 Exists: true
   Reading patch net.minecraft.tags.TagRegistry$1.binpatch
     Checksum: 8761310b Exists: true
   Reading patch net.minecraft.tags.TagRegistry$NamedTag.binpatch
@@ -1984,6 +1988,8 @@ Loading patches file: C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 0 Exists: false
   Reading patch net.minecraft.tags.TagRegistry.binpatch
     Checksum: eaf82019 Exists: true
+  Reading patch net.minecraft.tags.TagRegistryManager.binpatch
+    Checksum: 87a06d1c Exists: true
   Reading patch net.minecraft.tileentity.AbstractFurnaceTileEntity$1.binpatch
     Checksum: 10f64055 Exists: true
   Reading patch net.minecraft.tileentity.AbstractFurnaceTileEntity.binpatch
@@ -2694,10 +2700,13 @@ Processing: C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/util/Direction$Axis$2 1/1
   Patching net/minecraft/util/Direction$Axis$1 1/1
   Patching net/minecraft/block/RailState$1 1/1
+  Patching net/minecraft/tags/NetworkTagManager 1/1
   Patching net/minecraft/tags/ITagCollectionSupplier 1/1
   Patching net/minecraft/tags/ITagCollection 1/1
   Patching net/minecraft/tags/ITag 1/1
+  Patching net/minecraft/tags/TagRegistryManager 1/1
   Patching net/minecraft/tags/TagRegistry 1/1
+  Patching net/minecraft/tags/TagCollectionManager 1/1
   Patching net/minecraft/tags/ItemTags 1/1
   Patching net/minecraft/tags/FluidTags 1/1
   Patching net/minecraft/tags/EntityTypeTags 1/1
