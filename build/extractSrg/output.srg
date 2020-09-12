@@ -13012,7 +13012,7 @@ aag net/minecraft/world/server/ServerWorld
 	a (ZZ)V func_241123_a_
 	b ()V func_241126_b_
 	b (ILfx;I)V func_175669_a
-	b (Laag;Lfx;)V func_241122_a_
+	b (Laag;Lfx;)V func_244430_b
 	b (Laah;)V func_217447_b
 	b (Lapx;)V func_217464_b
 	b (Lbsm;)V func_205338_b
@@ -22426,7 +22426,7 @@ ayf net/minecraft/pathfinding/GroundPathNavigator
 	b (IIIIIILdck;DD)Z func_179692_b
 	c (Z)V func_179685_e
 	f ()Z func_179686_g
-	t ()I func_179687_p
+	u ()I func_179687_p
 	D_ ()V func_75487_m
 ayg net/minecraft/pathfinding/PathNavigator
 	a field_75515_a
@@ -22448,6 +22448,7 @@ ayg net/minecraft/pathfinding/PathNavigator
 	q field_225468_r
 	r field_226334_s_
 	s field_179681_j
+	t field_244431_t
 	a ()Z func_75485_k
 	a (D)V func_75489_a
 	a (DDDD)Z func_75492_a
@@ -22469,7 +22470,8 @@ ayg net/minecraft/pathfinding/PathNavigator
 	b (Lfx;)V func_220970_c
 	c ()V func_75501_e
 	d (Z)V func_212239_d
-	e ()V func_234113_e_
+	e ()V func_244427_e
+	f ()V func_234113_e_
 	g ()V func_226336_g_
 	h ()Lfx; func_208485_j
 	i ()Z func_188553_i
@@ -22482,6 +22484,7 @@ ayg net/minecraft/pathfinding/PathNavigator
 	p ()Z func_75506_l
 	q ()Lcwz; func_189566_q
 	r ()Z func_212238_t
+	t ()Z func_244428_t
 	D_ ()V func_75487_m
 ayh net/minecraft/pathfinding/ClimberPathNavigator
 	p field_179696_f
@@ -34050,7 +34053,7 @@ bsw net/minecraft/world/biome/BiomeAmbience
 	f ()Ljava/util/Optional; func_242529_f
 	f (Lbsw;)Lbsw$b; func_242530_f
 	g ()Lbsw$b; func_242531_g
-	g (Lbsw;)Ljava/util/Optional; func_244422_c_
+	g (Lbsw;)Ljava/util/Optional; func_244426_c
 	h ()Ljava/util/Optional; func_235220_d_
 	h (Lbsw;)Ljava/util/Optional; func_244421_d_
 	i ()Ljava/util/Optional; func_235222_e_
