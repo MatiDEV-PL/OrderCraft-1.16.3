@@ -1,15 +1,15 @@
-Args: "--clean", "C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.3-20200911.084530\joined-1.16.3-20200911.084530-srg.jar", "--output", "C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.1\forge-1.16.3-34.0.1-binpatched.jar", "--apply", "C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.1\forge-1.16.3-34.0.1-binpatches.lzma"
+Args: "--clean", "C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.3-20200911.084530\joined-1.16.3-20200911.084530-srg.jar", "--output", "C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.5\forge-1.16.3-34.0.5-binpatched.jar", "--apply", "C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.5\forge-1.16.3-34.0.5-binpatches.lzma"
 Classpath: C:\Users\mateu\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.0.12\binarypatcher-1.0.12-fatjar.jar
-WorkDir: C:\Users\mateu\Desktop\ToolMod\OrderCraft-1.16.2\build\_applyBinpatches_2
+WorkDir: C:\Users\mateu\Desktop\ToolMod\OrderCraft-1.16.3\build\_applyBinpatches_2
 Main: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.3-20200911.084530\joined-1.16.3-20200911.084530-srg.jar
-  Output:    C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.1\forge-1.16.3-34.0.1-binpatched.jar
+  Output:    C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.5\forge-1.16.3-34.0.5-binpatched.jar
   KeepData:  false
   Unpatched: false
-  Patches:   C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.1\forge-1.16.3-34.0.1-binpatches.lzma
-Loading patches file: C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.1\forge-1.16.3-34.0.1-binpatches.lzma
+  Patches:   C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.5\forge-1.16.3-34.0.5-binpatches.lzma
+Loading patches file: C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.3-34.0.5\forge-1.16.3-34.0.5-binpatches.lzma
   Reading patch com.mojang.blaze3d.platform.GlStateManager$1.binpatch
     Checksum: 27fccb26 Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$AlphaState.binpatch
@@ -2108,6 +2108,18 @@ Loading patches file: C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: e073f5c8 Exists: true
   Reading patch net.minecraft.util.registry.WorldGenRegistries.binpatch
     Checksum: b4ffd4d6 Exists: true
+  Reading patch net.minecraft.util.registry.WorldSettingsImport$1.binpatch
+    Checksum: cb3b3f59 Exists: true
+  Reading patch net.minecraft.util.registry.WorldSettingsImport$IResourceAccess$1.binpatch
+    Checksum: b4ff5a24 Exists: true
+  Reading patch net.minecraft.util.registry.WorldSettingsImport$IResourceAccess$RegistryAccess.binpatch
+    Checksum: 3d22c4a6 Exists: true
+  Reading patch net.minecraft.util.registry.WorldSettingsImport$IResourceAccess.binpatch
+    Checksum: c8480495 Exists: true
+  Reading patch net.minecraft.util.registry.WorldSettingsImport$ResultMap.binpatch
+    Checksum: 7c06362 Exists: true
+  Reading patch net.minecraft.util.registry.WorldSettingsImport.binpatch
+    Checksum: 53a0820a Exists: true
   Reading patch net.minecraft.util.text.LanguageMap$1.binpatch
     Checksum: 26228efd Exists: true
   Reading patch net.minecraft.util.text.LanguageMap.binpatch
@@ -2166,8 +2178,24 @@ Loading patches file: C:\Users\mateu\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: c07f2c25 Exists: true
   Reading patch net.minecraft.world.biome.Biome.binpatch
     Checksum: 4f12f6af Exists: true
+  Reading patch net.minecraft.world.biome.BiomeGenerationSettings$1.binpatch
+    Checksum: c6fe4041 Exists: true
+  Reading patch net.minecraft.world.biome.BiomeGenerationSettings$Builder.binpatch
+    Checksum: 752151c4 Exists: true
+  Reading patch net.minecraft.world.biome.BiomeGenerationSettings.binpatch
+    Checksum: 8bb3e048 Exists: true
   Reading patch net.minecraft.world.biome.BiomeRegistry.binpatch
     Checksum: 1267fc59 Exists: true
+  Reading patch net.minecraft.world.biome.MobSpawnInfo$1.binpatch
+    Checksum: 314c36ff Exists: true
+  Reading patch net.minecraft.world.biome.MobSpawnInfo$Builder.binpatch
+    Checksum: 4e26694b Exists: true
+  Reading patch net.minecraft.world.biome.MobSpawnInfo$SpawnCosts.binpatch
+    Checksum: 2544c6bd Exists: true
+  Reading patch net.minecraft.world.biome.MobSpawnInfo$Spawners.binpatch
+    Checksum: b147ae6a Exists: true
+  Reading patch net.minecraft.world.biome.MobSpawnInfo.binpatch
+    Checksum: 8570a9f8 Exists: true
   Reading patch net.minecraft.world.border.WorldBorder$1.binpatch
     Checksum: 590d3749 Exists: true
   Reading patch net.minecraft.world.border.WorldBorder$IBorderInfo.binpatch
@@ -2439,6 +2467,8 @@ Processing: C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/block/BambooBlock 1/1
   Patching net/minecraft/block/AttachedStemBlock 1/1
   Patching net/minecraft/block/AbstractBannerBlock 1/1
+  Patching net/minecraft/world/biome/MobSpawnInfo 1/1
+  Patching net/minecraft/world/biome/BiomeGenerationSettings 1/1
   Patching net/minecraft/world/biome/Biome 1/1
   Patching net/minecraft/world/spawner/WorldEntitySpawner 1/1
   Patching net/minecraft/world/WorldSettings 1/1
@@ -2616,6 +2646,7 @@ Processing: C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/entity/passive/horse/LlamaEntity 1/1
   Patching net/minecraft/entity/passive/horse/HorseEntity 1/1
   Patching net/minecraft/client/gui/widget/list/KeyBindingList$KeyEntry$2 1/1
+  Patching net/minecraft/world/biome/BiomeGenerationSettings$Builder 1/1
   Patching net/minecraft/client/gui/widget/list/KeyBindingList$KeyEntry$1 1/1
   Patching net/minecraft/entity/passive/horse/AbstractHorseEntity 1/1
   Patching net/minecraft/entity/passive/WolfEntity 1/1
@@ -2630,6 +2661,7 @@ Processing: C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/entity/passive/MooshroomEntity 1/1
   Patching net/minecraft/entity/passive/IronGolemEntity 1/1
   Patching net/minecraft/entity/passive/FoxEntity 1/1
+  Patching net/minecraft/world/biome/BiomeGenerationSettings$1 1/1
   Patching net/minecraft/world/lighting/LevelBasedGraph$2 1/1
   Patching net/minecraft/world/lighting/LevelBasedGraph$1 1/1
   Patching net/minecraft/inventory/container/PlayerContainer$2 1/1
@@ -3067,7 +3099,10 @@ Processing: C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/item/ItemStack$TooltipDisplayFlags 1/1
   Patching net/minecraft/entity/passive/OcelotEntity$TemptGoal 1/1
   Patching net/minecraft/entity/passive/OcelotEntity$AvoidEntityGoal 1/1
+  Patching net/minecraft/util/registry/WorldSettingsImport$IResourceAccess 1/1
+  Patching net/minecraft/util/registry/WorldSettingsImport$ResultMap 1/1
   Patching net/minecraft/enchantment/Enchantment$Rarity 1/1
+  Patching net/minecraft/util/registry/WorldSettingsImport$1 1/1
   Patching net/minecraft/world/storage/SaveFormat$LevelSave$2 1/1
   Patching net/minecraft/world/storage/SaveFormat$LevelSave$1 1/1
   Patching net/minecraft/client/world/ClientWorld$ClientWorldInfo 1/1
@@ -3089,6 +3124,7 @@ Processing: C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/util/registry/Bootstrap 1/1
   Patching net/minecraft/util/RegistryKey 1/1
   Patching net/minecraft/client/particle/ParticleManager$IParticleMetaFactory 1/1
+  Patching net/minecraft/util/registry/WorldSettingsImport 1/1
   Patching net/minecraft/client/particle/ParticleManager$AnimatedSpriteImpl 1/1
   Patching net/minecraft/network/ServerStatusResponse$Version$Serializer 1/1
   Patching net/minecraft/tileentity/ShulkerBoxTileEntity$AnimationStatus 1/1
@@ -3119,11 +3155,13 @@ Processing: C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/client/renderer/FirstPersonRenderer$1 1/1
   Patching net/minecraft/network/play/server/SCommandListPacket 1/1
   Patching net/minecraft/entity/passive/horse/LlamaEntity$1 1/1
+  Patching net/minecraft/util/registry/WorldSettingsImport$IResourceAccess$RegistryAccess 1/1
   Patching net/minecraft/util/text/TranslationTextComponent 1/1
   Patching net/minecraft/util/text/Style 1/1
   Patching net/minecraft/client/network/ServerPinger$2$1 1/1
   Patching net/minecraft/network/PacketBuffer 1/1
   Patching net/minecraft/network/NetworkManager 1/1
+  Patching net/minecraft/util/registry/WorldSettingsImport$IResourceAccess$1 1/1
   Patching net/minecraft/nbt/StringNBT 1/1
   Patching net/minecraft/nbt/CompressedStreamTools 1/1
   Patching net/minecraft/nbt/NBTSizeTracker 1/1
@@ -3395,6 +3433,10 @@ Processing: C:\Users\mateu\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/tileentity/AbstractFurnaceTileEntity$1 1/1
   Patching net/minecraft/client/renderer/model/VariantList$Deserializer 1/1
   Patching com/mojang/realmsclient/gui/screens/RealmsGenericErrorScreen 1/1
+  Patching net/minecraft/world/biome/MobSpawnInfo$Spawners 1/1
+  Patching net/minecraft/world/biome/MobSpawnInfo$SpawnCosts 1/1
+  Patching net/minecraft/world/biome/MobSpawnInfo$Builder 1/1
+  Patching net/minecraft/world/biome/MobSpawnInfo$1 1/1
   Patching net/minecraft/entity/item/minecart/SpawnerMinecartEntity$1 1/1
   Patching net/minecraft/client/renderer/vertex/VertexFormatElement 1/1
   Patching net/minecraft/client/renderer/vertex/VertexFormat 1/1
