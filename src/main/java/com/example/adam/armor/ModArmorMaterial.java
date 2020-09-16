@@ -15,8 +15,8 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 public enum ModArmorMaterial implements IArmorMaterial {
     COPPER(ToolMod.MOD_ID + ":copper", 15, new int[] { 1, 3, 4, 1, }, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, () -> { return Ingredient.fromItems(RegistryHandler.Copper_Ingot.get()); }, 0),
-    EMERALD(ToolMod.MOD_ID + ":emerald", 20, new int[] { 1, 3, 4, 1, }, 15,
-    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, () -> { return Ingredient.fromItems(RegistryHandler.Copper_Ingot.get()); }, 0),
+    EMERALD(ToolMod.MOD_ID + ":emerald", 30, new int[] { 3, 7, 10, 3, }, 15,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0F, () -> { return Ingredient.fromItems(RegistryHandler.Copper_Ingot.get()); }, 0),
     TIN(ToolMod.MOD_ID + ":tin", 15, new int[] { 1, 3, 4, 1, }, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, () -> { return Ingredient.fromItems(RegistryHandler.Tin_Ingot.get()); }, 0);
 
